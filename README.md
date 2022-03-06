@@ -18,11 +18,11 @@ Posteriormente con Scrapy se obtienen los datos de los html descargados y se va 
 
 # Instalación
 
--> poetry install (Instalar dependencias)
+-> **poetry install (Instalar dependencias)**
 
--> cd notebooks/amazon_webscrapping && scrapy crawl "webscrapping_amazon" -O amazon_data.csv (Generar el csv)
+-> **cd notebooks/amazon_webscrapping && scrapy crawl "webscrapping_amazon" -O amazon_data.csv (Generar el csv)**
 
-También se puede abrir el notebook "AmazonReaderMain.ipynb" y lanzarlo desde ahí.
+También se puede **abrir el notebook "AmazonReaderMain.ipynb" y lanzarlo desde ahí.**
 
 # Resultado de algunas predicciones
 
