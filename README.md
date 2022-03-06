@@ -10,7 +10,7 @@ Posteriormente se ha tratado en KNIME para generar un modelo de predicción con 
 
 # Funcionamiento
 
-Amazon tiene un bloqueo para los bots que usan Web Scrapping, se ha montado un servidor de Tor para ir cambiando de IP cada 5 intentos además de User-Agents, etc...
+Amazon tiene un bloqueo antibots por lo que se ha montado un servidor de Tor para ir cambiando de IP cada 5 intentos además de User-Agents, etc...
 
 Esa parte se encarga de obtener los html con los datos de los componentes (notebooks/WebScrappingTor) y guardarlos.
 
