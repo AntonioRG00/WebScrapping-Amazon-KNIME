@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "webscrapping-amazon"
+version = "0.0.1"
+description = "Project for webscrapping amazon products"
+authors = ["AntonioRG antoniorg00@protonmail.com"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Scrapy = "^2.5.1"
+pandas = "^1.4.0"
+ipykernel = "^6.9.0"
+Scrapy-UserAgents = "^0.0.1"
+bs4 = "^0.0.1"
+stem = "^1.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
